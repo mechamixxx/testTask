@@ -1,0 +1,15 @@
+C:\Users\vadim\source\repos\drivee-test\drivee-test\bin\Debug\net6.0\drivee-test.exe
+C:\Users\vadim\source\repos\drivee-test\drivee-test\bin\Debug\net6.0\drivee-test.deps.json
+C:\Users\vadim\source\repos\drivee-test\drivee-test\bin\Debug\net6.0\drivee-test.runtimeconfig.json
+C:\Users\vadim\source\repos\drivee-test\drivee-test\bin\Debug\net6.0\drivee-test.dll
+C:\Users\vadim\source\repos\drivee-test\drivee-test\bin\Debug\net6.0\drivee-test.pdb
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.csproj.AssemblyReference.cache
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.AssemblyInfoInputs.cache
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.AssemblyInfo.cs
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.csproj.CoreCompileInputs.cache
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.dll
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\refint\drivee-test.dll
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.pdb
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\drivee-test.genruntimeconfig.cache
+C:\Users\vadim\source\repos\drivee-test\drivee-test\obj\Debug\net6.0\ref\drivee-test.dll
