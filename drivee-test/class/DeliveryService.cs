@@ -19,13 +19,14 @@ namespace drivee_test
         public void SortOrders()
         {
             //История заказов
-            Dictionary<int, Order> assignedOrders = new Dictionary<int, Order>();
+            
             while (orders.Count > 0)
             {
+                Dictionary<int, Order> assignedOrders = new Dictionary<int, Order>();
                 for (int i = 0; i < couriers.Count; i++)
                 {
                     double maxEffective = 0;
-                    Order closestOrder;
+                    Order closestOrder = new Order(new Location(0, 0), new Location(0, 0), 0);
                     foreach (var order in orders)
                     {
                         double distance = Math.Sqrt(Math.Pow(couriers[i].Location.X - order.From.X, 2) + Math.Pow(couriers[i].Location.Y - order.From.Y, 2));
@@ -36,11 +37,15 @@ namespace drivee_test
                             closestOrder = order;
                         }
                     }
-                    orders.Remove(closestOrder);
-                    couriers[i].Order = true;
-                    couriers[i].Location.X = closestOrder.To.X;
-                    couriers[i].Location.Y = closestOrder.To.Y;
-                    assignedOrders.Add(i, closestOrder);
+                    if (!assignedOrders.ContainsValue(closestOrder))
+                    {
+                        orders.Remove(closestOrder);
+                        couriers[i].Order = true;
+                        couriers[i].Location.X = closestOrder.To.X;
+                        couriers[i].Location.Y = closestOrder.To.Y;
+                        assignedOrders.Add(i, closestOrder);
+                    }
+                        
                 }
 
                 foreach (var kvp in assignedOrders)

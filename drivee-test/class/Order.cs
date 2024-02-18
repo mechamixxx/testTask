@@ -16,10 +16,6 @@ namespace drivee_test {
             To = to;
             Price = price;
         }
-        public Order()
-        {
-            
-        }
     }
 }
 

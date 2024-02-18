@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vadim\\source\\repos\\drivee-test\\drivee-test\\drivee-test.csproj",
+      "projectUniqueName": "C:\\Users\\vadim\\testTask\\drivee-test\\drivee-test.csproj",
       "projectName": "drivee-test",
-      "projectPath": "C:\\Users\\vadim\\source\\repos\\drivee-test\\drivee-test\\drivee-test.csproj",
+      "projectPath": "C:\\Users\\vadim\\testTask\\drivee-test\\drivee-test.csproj",
       "packagesPath": "C:\\Users\\vadim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vadim\\source\\repos\\drivee-test\\drivee-test\\obj\\",
+      "outputPath": "C:\\Users\\vadim\\testTask\\drivee-test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
